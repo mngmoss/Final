@@ -1,0 +1,223 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 20px;
+  cursor: crosshair;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+a:hover {
+  color: red;
+}
+
+.invasion {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 80pt;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  /* margin-left: 200px; */
+  margin-left: -100%; /* Start off the screen to the left */
+  animation: slideIn 5s ease-in-out forwards; /* Animation properties */
+}
+@keyframes slideIn {
+  from {
+    margin-left: -100%; /* Start off the screen to the left */
+  }
+  to {
+    margin-left: 200px; /* End at the desired position */
+  }
+}
+.title2 {
+  font-size: 120pt;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  color: darkgreen;
+}
+
+.intro {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15pt;
+  margin-top: 0px;
+  width: 500px;
+  margin-left: 1000px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+
+.parent-container {
+  height: 200px;
+  position: relative;
+}
+.main-container {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Optional: Add a z-index to control the stacking order */
+}
+.sub-container {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  z-index: 1; /* Optional: Add a z-index to control the stacking order */
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  /* border-left: 1px solid #000; */
+  /* border: 1px solid #ccc; */
+}
+h1 {
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: white;
+  transition: color 0.5s;
+}
+
+h4 {
+  color: darkgreen;
+  font-size: 20px;
+  margin-top: 15px;
+}
+h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: red;
+}
+h6 {
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}
+
+.truth {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 60pt;
+  margin-bottom: 40px;
+}
+.bigger {
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.smaller {
+  font-size: 16pt;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+}
+
+.img1 {
+  position: relative;
+  left: 200px;
+  padding: 10px;
+}
+.img2 {
+  position: relative;
+  right: 30px;
+  padding: 10px;
+}
+.img3 {
+  position: relative;
+  left: 300px;
+  padding: 10px;
+}
+/* styles.css */
+
+.barbed-wire {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.line {
+  background-color: transparent;
+  border-bottom: 2px dotted #333; /* Color and style of the lines */
+  width: 100vw; /* Makes each line span the viewport width */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  flex-grow: 0; /* Disable spacing between lines */
+}
+
+.light {
+  border-bottom-width: 1px; /* Adjust the line weight */
+}
+
+medium {
+  border-bottom-width: 2px; /* Adjust the line weight */
+}
+
+heavy {
+  border-bottom-width: 4px; /* Adjust the line weight */
+}
+
+.Otitle {
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16pt;
+  margin-left: 100px;
+}
+
+.outro {
+  column-count: 2;
+  column-gap: 20px; /* Adjust this value as needed */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15pt;
+}
+
+.additional {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14pt;
+  position: relative;
+  left: 18px;
+}
+
+.qoute {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70pt;
+}
+
+.links {
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.links p {
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
